@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+.vscode/
+npm-debug.*
+web-build/
+.webpack
+.serverless/
+build/
+dist/
+
+
+# macOS
+.DS_Store
+test-files/

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Webpack Typescript Starter</title>
+
+<% for (var css in htmlWebpackPlugin.files.css) { %>
+<link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+<% } %>
+
+
+
+<body>
+
+    <div class="container">
+        <h1>Hello!</h1>
+        <p>This is a webpack starter pack using Typescript!</p>
+        <ul>
+            <li>Run locally using <code>npm run dev</code></li>
+            <li>Build for production using <code>npm run build</code></li>
+        </ul>
+    </div> 
+
+    
+
+    <% for (var js in htmlWebpackPlugin.files.js) { %>
+    <script src="<%= htmlWebpackPlugin.files.js[js] %>"></script>
+    <% } %>
+
+</body>
+</html>
