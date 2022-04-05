@@ -1,10 +1,6 @@
 import '../css/style.css'; 
 import '../css/custom1.css'; 
 
-
-
-
-
 import CustomFunc1 from './custom1';
 import CustomFunc2 from './custom2';
 

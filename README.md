@@ -33,6 +33,6 @@ In `webpack.config.js` if you uncomment these lines:
     }),
 ```
 
-...then you can get it to also copy other files into your build directory if you so desire!
+...then you can get it to also copy other files & folders into your dist/build directory if you so desire!
 
 Enjoy!
